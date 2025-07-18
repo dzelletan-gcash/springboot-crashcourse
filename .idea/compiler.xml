@@ -8,16 +8,19 @@
         <outputRelativeToContentRoot value="true" />
         <module name="myfirstapi (1)" />
         <module name="myfirstapi" />
+        <module name="myfirstapi (3)" />
         <module name="myfirstapi (2)" />
+        <module name="lab6" />
+        <module name="calculator-tdd-style" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="calculator-tdd-style" target="24" />
-      <module name="myfirstapi (3)" target="17" />
+      <module name="FECP5-Java-Session2-Calculator" target="24" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="lab6" options="-parameters" />
       <module name="myfirstapi" options="-parameters" />
       <module name="myfirstapi (1)" options="-parameters" />
       <module name="myfirstapi (2)" options="-parameters" />
