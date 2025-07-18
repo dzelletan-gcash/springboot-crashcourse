@@ -60,8 +60,8 @@ class ProductTest {
 
         assertEquals(product1, product2);
         assertNotEquals(product1, product3);
-        assertNotEquals(product1, null);
-        assertNotEquals(product1, "NotAProduct");
+        assertNotEquals(null, product1);
+        assertNotEquals("NotAProduct", product1);
     }
 
     @Test
